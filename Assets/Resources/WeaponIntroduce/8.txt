@@ -1,0 +1,7 @@
+钢铁巨盾
+
+<color=#ffa500ff>增益目标 : </color> +20%防御
+
+<color=#0000a0ff>减益目标 ：</color> -4速度
+
+<size=10>"请配合长矛使用"</size>

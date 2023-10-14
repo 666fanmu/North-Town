@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3196985114686939453
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3196985114686939454}
+  - component: {fileID: 3196985114686939455}
+  m_Layer: 0
+  m_Name: thief
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3196985114686939454
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3196985114686939453}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3196985114686939455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3196985114686939453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f1e39757333e9248b25a6055b315409, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  protect_Status: 0
+  target_Status: 0
+  isAbletoMove: 0
+  attribute: {fileID: 11400000, guid: 3884d6c992e6a54459685b9a9b6d8d25, type: 2}
+  Blood: 0
+  HighAttack: 0
+  LowAttack: 0
+  Defence: 0
+  Dodge: 0
+  Precision: 0
+  CriticalHit: 0
+  Speed: 0
+  Level: 0
+  levelNeedCoins: 0
+  playerUIcontrol: {fileID: 0}
+  availableSkills: []
+  Place: 0
+  Weapon: {fileID: 0}
+  Armor: {fileID: 0}
+  Ring: {fileID: 0}
+  NeckLace: {fileID: 0}
+  Buffs: []
+  Debuffs: []
+  ifSettleBuffs: 0
+  ifActive: 0

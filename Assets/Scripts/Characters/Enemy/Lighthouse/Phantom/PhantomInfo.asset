@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 805a05611db675944bb2fae96e8d7605, type: 3}
+  m_Name: PhantomInfo
+  m_EditorClassIdentifier: 
+  CharacterHeadSprite: {fileID: 21300000, guid: 321d8291ab2c6cb4b81d3dda37a91ef6, type: 3}
+  CharacterSprite: {fileID: 21300000, guid: 3acd8d445bc88f547a8d43d9bd313ccf, type: 3}
+  Name: "\u5E7D\u7075"
+  Camp: 1
+  currentLevel: 1
+  ifLevelUp: 0
+  AttackNumber: 1
+  AttributeList:
+  - Blood: 30
+    HighAttack: 6
+    LowAttack: 50
+    Defence: 0
+    Dodge: 0
+    Precision: 0
+    CriticalHit: 0
+    Speed: 5
+    BleedResist: 100
+    DizzyResist: 100
+    DebuffResist: 30
+    MoveResist: 50
+    levelNeedCoins: 0
+  skills:
+  - SkillName: "\u5C16\u5578 "
+    SkillLevel: 1
+    skillNeedCoins: 
+    skillTarget: 1
+    description: " \u670990%\u7684\u57FA\u7840\u6982\u7387\u4F7F\u76EE\u6807\u7729\u6655
+      \u5269\u4F59\u4F7F\u7528\u6B21\u6570\uFF1A1\n"
+    icon: {fileID: 0}
+    usableTime: 1
+    precision: []
+    criticalHitCorrection: 0
+    isOffend: 1
+    isMassAttacks: 1
+    MassAttacksNumbers: 4
+    damageCorrection: 0.2
+    AvailableStandPosition: 00000000010000000200000003000000
+    AvailableAttackPosition: 00000000010000000200000003000000
+    effects:
+    - type: 0
+      value: []
+      buffs: {fileID: 0}
+    - type: 3
+      value: []
+      buffs: {fileID: 0}
+  - SkillName: "\u7A7F\u9B42 "
+    SkillLevel: 1
+    skillNeedCoins: 
+    skillTarget: 1
+    description: "\u6709100%\u57FA\u7840\u6982\u7387\u4F7F\u76EE\u6807-10%\u7CBE\u51C6\uFF0C\u6301\u7EED\u56DE\u5408\r\n"
+    icon: {fileID: 0}
+    usableTime: 0
+    precision: []
+    criticalHitCorrection: 5
+    isOffend: 1
+    isMassAttacks: 0
+    MassAttacksNumbers: 1
+    damageCorrection: 0.7
+    AvailableStandPosition: 00000000010000000200000003000000
+    AvailableAttackPosition: 0000000001000000
+    effects:
+    - type: 0
+      value: []
+      buffs: {fileID: 0}
+    - type: 3
+      value: []
+      buffs: {fileID: 6742829919505997193, guid: 438d59dd7eeb7d14ea982ca2eb0b6895, type: 3}

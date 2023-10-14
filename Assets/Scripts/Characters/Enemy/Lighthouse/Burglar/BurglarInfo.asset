@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 805a05611db675944bb2fae96e8d7605, type: 3}
+  m_Name: BurglarInfo
+  m_EditorClassIdentifier: 
+  CharacterHeadSprite: {fileID: 21300000, guid: 344fe81eb5885dc49a97989fab66c16e, type: 3}
+  CharacterSprite: {fileID: 21300000, guid: 57648d64ce9e1604db37d0cd624c2346, type: 3}
+  Name: "\u5C0F\u5077"
+  Camp: 1
+  currentLevel: 1
+  ifLevelUp: 0
+  AttackNumber: 1
+  AttributeList:
+  - Blood: 25
+    HighAttack: 11
+    LowAttack: 6
+    Defence: 0
+    Dodge: 10
+    Precision: 0
+    CriticalHit: 5
+    Speed: 4
+    BleedResist: 50
+    DizzyResist: 50
+    DebuffResist: 50
+    MoveResist: 50
+    levelNeedCoins: 0
+  skills:
+  - SkillName: "\u5077\u76D7\u4E4B\u5203 "
+    SkillLevel: 1
+    skillNeedCoins: 
+    skillTarget: 1
+    description: "\u8FD1\u6218/\u4F4D\u79FB\r\n"
+    icon: {fileID: 0}
+    usableTime: 0
+    precision:
+    - 100
+    criticalHitCorrection: 10
+    isOffend: 1
+    isMassAttacks: 0
+    MassAttacksNumbers: 0
+    damageCorrection: 1
+    AvailableStandPosition: 0000000001000000
+    AvailableAttackPosition: 00000000010000000200000003000000
+    effects:
+    - type: 0
+      value: []
+      buffs: {fileID: 0}
+    - type: 3
+      value: []
+      buffs: {fileID: 0}
+  - SkillName: "\u9003\u8DD1 "
+    SkillLevel: 0
+    skillNeedCoins: 
+    skillTarget: 0
+    description: "\u589E\u76CA\u81EA\u8EAB\uFF1A20%\u95EA\u907F\uFF0C\u6301\u7EED2\u56DE\u5408\r\n"
+    icon: {fileID: 0}
+    usableTime: 0
+    precision: []
+    criticalHitCorrection: 0
+    isOffend: 0
+    isMassAttacks: 0
+    MassAttacksNumbers: 1
+    damageCorrection: 0
+    AvailableStandPosition: 03000000
+    AvailableAttackPosition: 
+    effects:
+    - type: 2
+      value: []
+      buffs: {fileID: 0}
+    - type: 2
+      value: []
+      buffs: {fileID: 7668317023940242464, guid: 1b42741d02ab4304ea5426d41567ba50, type: 3}

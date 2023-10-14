@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: baebbec2e69952f46a3da9250c81665f, type: 3}
+  m_Name: Precise_Big
+  m_EditorClassIdentifier: 
+  name: 
+  icon: {fileID: 0}
+  description: 
+  Blood: 0
+  HighAttack: 0
+  LowAttack: 0
+  Defence: 0
+  Dodge: 0
+  Precision: 0
+  CriticalHit: 0
+  Speed: 0
+  BuffList:
+  - {fileID: 2922132916544891368, guid: cabd8c498e88e8f4f91c0d0cdb133dcd, type: 3}

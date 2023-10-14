@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 297a42467885e4c4cb883a2aae34eb63
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - gainBuffEffect: {fileID: 11400000, guid: 3c2e624f15d70e64dbc08b64907f834f, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

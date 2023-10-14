@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b6a40ece8656db479c74d426ea83da0, type: 3}
+  m_Name: sword
+  m_EditorClassIdentifier: 
+  ItemName: "\u5251"
+  WeaponSprite: {fileID: 21300000, guid: 1ff1175d56df9eb4f8cfa0ba429d9254, type: 3}
+  CurrentLevel: 0
+  Blood: 0
+  LowAttack: 0
+  HighAttack: 1
+  Defence: 0
+  Dodge: 0
+  Precision: 0
+  CriticalHit: 0
+  Speed: 0
+  Description: 
+  ifEquiped: 1

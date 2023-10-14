@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 805a05611db675944bb2fae96e8d7605, type: 3}
+  m_Name: Soldier_rInfo
+  m_EditorClassIdentifier: 
+  CharacterHeadSprite: {fileID: 21300000, guid: df72830c7382d8e409c201f036f958ce, type: 3}
+  CharacterSprite: {fileID: 21300000, guid: 3970e8dbe74b631409aef3651f1e86ae, type: 3}
+  Name: "\u88AB\u9057\u5FD8\u7684\u58EB\u5175\uFF08\u540E\u6392\uFF09"
+  Camp: 1
+  currentLevel: 1
+  ifLevelUp: 0
+  AttackNumber: 1
+  AttributeList:
+  - Blood: 16
+    HighAttack: 12
+    LowAttack: 7
+    Defence: 0
+    Dodge: 15
+    Precision: 0
+    CriticalHit: 10
+    Speed: 4
+    BleedResist: 50
+    DizzyResist: 50
+    DebuffResist: 50
+    MoveResist: 50
+    levelNeedCoins: 0
+  skills:
+  - SkillName: "\u5C04\u51FB"
+    SkillLevel: 1
+    skillNeedCoins: 
+    skillTarget: 0
+    description: "\u8FDC\u7A0B"
+    icon: {fileID: 0}
+    usableTime: 0
+    precision: []
+    criticalHitCorrection: 0
+    isOffend: 1
+    isMassAttacks: 0
+    MassAttacksNumbers: 1
+    damageCorrection: 1
+    AvailableStandPosition: 010000000200000003000000
+    AvailableAttackPosition: 00000000010000000200000003000000
+    effects:
+    - type: 0
+      value:
+      - Dsicription: 
+        value: 0
+      buffs: {fileID: 0}
+  - SkillName: "\u81F4\u6B8B\u6253\u51FB"
+    SkillLevel: 1
+    skillNeedCoins: 
+    skillTarget: 0
+    description: "\u51CF\u76CA\u76EE\u6807\uFF1A-1\u653B\u51FB\u529B\uFF0C-1\u901F\u5EA6\r\n"
+    icon: {fileID: 0}
+    usableTime: 0
+    precision: []
+    criticalHitCorrection: 0
+    isOffend: 1
+    isMassAttacks: 0
+    MassAttacksNumbers: 1
+    damageCorrection: 0.75
+    AvailableStandPosition: 0200000003000000
+    AvailableAttackPosition: 00000000
+    effects:
+    - type: 0
+      value:
+      - Dsicription: 
+        value: 0
+      buffs: {fileID: 0}
+    - type: 3
+      value:
+      - Dsicription: 
+        value: 0
+      buffs: {fileID: 7529364048288310505, guid: 1802d0e99227e4542b4089e87e5ca448, type: 3}

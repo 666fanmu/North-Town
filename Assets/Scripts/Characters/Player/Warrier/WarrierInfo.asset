@@ -1,0 +1,184 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 805a05611db675944bb2fae96e8d7605, type: 3}
+  m_Name: WarrierInfo
+  m_EditorClassIdentifier: 
+  CharacterHeadSprite: {fileID: 21300000, guid: f06f33895c9a15b46909c4af44281f6b, type: 3}
+  CharacterSprite: {fileID: 21300000, guid: c8c5ae2c89286ad418fca184a48418af, type: 3}
+  Name: "\u6218\u58EB"
+  Camp: 0
+  currentLevel: 6
+  ifLevelUp: 0
+  AttackNumber: 1
+  AttributeList:
+  - Blood: 40
+    HighAttack: 8
+    LowAttack: 5
+    Defence: 0
+    Dodge: 15
+    Precision: 0
+    CriticalHit: 5
+    Speed: 4
+    BleedResist: 45
+    DizzyResist: 40
+    DebuffResist: 30
+    MoveResist: 60
+    levelNeedCoins: 200
+  - Blood: 45
+    HighAttack: 9
+    LowAttack: 5
+    Defence: 0
+    Dodge: 20
+    Precision: 0
+    CriticalHit: 5
+    Speed: 5
+    BleedResist: 55
+    DizzyResist: 50
+    DebuffResist: 35
+    MoveResist: 65
+    levelNeedCoins: 220
+  - Blood: 50
+    HighAttack: 10
+    LowAttack: 6
+    Defence: 0
+    Dodge: 25
+    Precision: 0
+    CriticalHit: 15
+    Speed: 6
+    BleedResist: 65
+    DizzyResist: 60
+    DebuffResist: 40
+    MoveResist: 75
+    levelNeedCoins: 260
+  - Blood: 55
+    HighAttack: 11
+    LowAttack: 7
+    Defence: 0
+    Dodge: 25
+    Precision: 0
+    CriticalHit: 15
+    Speed: 6
+    BleedResist: 70
+    DizzyResist: 65
+    DebuffResist: 45
+    MoveResist: 80
+    levelNeedCoins: 300
+  - Blood: 60
+    HighAttack: 13
+    LowAttack: 7
+    Defence: 0
+    Dodge: 30
+    Precision: 0
+    CriticalHit: 15
+    Speed: 6
+    BleedResist: 75
+    DizzyResist: 70
+    DebuffResist: 55
+    MoveResist: 85
+    levelNeedCoins: 340
+  - Blood: 70
+    HighAttack: 14
+    LowAttack: 8
+    Defence: 0
+    Dodge: 40
+    Precision: 0
+    CriticalHit: 20
+    Speed: 7
+    BleedResist: 80
+    DizzyResist: 75
+    DebuffResist: 65
+    MoveResist: 90
+    levelNeedCoins: 0
+  skills:
+  - SkillName: "\u6325\u780D"
+    SkillLevel: 1
+    skillNeedCoins: 2c0100002c0100002c010000
+    skillTarget: 1
+    description: "\u8FD1\u6218"
+    icon: {fileID: 21300000, guid: a16703a561ff0714aab11e99923adbda, type: 3}
+    usableTime: 0
+    precision: []
+    criticalHitCorrection: 5
+    isOffend: 1
+    isMassAttacks: 0
+    MassAttacksNumbers: 1
+    damageCorrection: 0
+    AvailableStandPosition: 0000000001000000
+    AvailableAttackPosition: 0000000001000000
+    effects:
+    - type: 0
+      value: []
+      buffs: {fileID: 0}
+  - SkillName: "\u7729\u6655\u6253\u51FB"
+    SkillLevel: 1
+    skillNeedCoins: 2c0100002c0100002c010000
+    skillTarget: 1
+    description: "\u4F7F\u76EE\u6807\u7729\u6655\uFF0C\u5269\u4F59\u4F7F\u7528\u6B21\u6570\uFF1A3\r\n"
+    icon: {fileID: 21300000, guid: a956242e41bd5d94eb82fff3389d6da6, type: 3}
+    usableTime: 3
+    precision: []
+    criticalHitCorrection: 0
+    isOffend: 1
+    isMassAttacks: 0
+    MassAttacksNumbers: 1
+    damageCorrection: 0.6
+    AvailableStandPosition: 000000000100000002000000
+    AvailableAttackPosition: 000000000100000002000000
+    effects:
+    - type: 0
+      value:
+      - Dsicription: 
+        value: 4
+      buffs: {fileID: 0}
+    - type: 2
+      value:
+      - Dsicription: 
+        value: 4
+      buffs: {fileID: 4310408576101162530, guid: 7cefbe91c15b3994c9661df236a53708, type: 3}
+  - SkillName: "\u98CE\u66B4\u88AD\u51FB"
+    SkillLevel: 1
+    skillNeedCoins: 000000000000000000000000
+    skillTarget: 1
+    description: "\u8FD1\u6218"
+    icon: {fileID: 21300000, guid: b86adbf96db83c24d86f8188e38b2ea1, type: 3}
+    usableTime: 0
+    precision: []
+    criticalHitCorrection: 5
+    isOffend: 1
+    isMassAttacks: 1
+    MassAttacksNumbers: 3
+    damageCorrection: 0.8
+    AvailableStandPosition: 0000000001000000
+    AvailableAttackPosition: 000000000100000002000000
+    effects:
+    - type: 0
+      value: []
+      buffs: {fileID: 0}
+  - SkillName: "\u6012\u543C"
+    SkillLevel: 1
+    skillNeedCoins: 000000000000000000000000
+    skillTarget: 0
+    description: "\u589E\u76CA\u81EA\u8EAB\uFF1A20%\u9632\u5FA1\uFF0C+2\u653B\u51FB\u529B\uFF0C\u6301\u7EED3\u56DE\u5408\uFF1B\u6807\u8BB0\u81EA\u8EAB\uFF0C\u6301\u7EED3\u56DE\u5408\r\n"
+    icon: {fileID: 21300000, guid: 7084111955e8d644cbac8e2572531e80, type: 3}
+    usableTime: 15
+    precision: []
+    criticalHitCorrection: 0
+    isOffend: 0
+    isMassAttacks: 0
+    MassAttacksNumbers: 1
+    damageCorrection: 0
+    AvailableStandPosition: 00000000010000000200000003000000
+    AvailableAttackPosition: 
+    effects:
+    - type: 2
+      value: []
+      buffs: {fileID: 4310408576101162530, guid: 7cefbe91c15b3994c9661df236a53708, type: 3}

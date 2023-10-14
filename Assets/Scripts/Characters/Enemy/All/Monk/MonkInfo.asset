@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 805a05611db675944bb2fae96e8d7605, type: 3}
+  m_Name: MonkInfo
+  m_EditorClassIdentifier: 
+  CharacterHeadSprite: {fileID: 21300000, guid: 321d8291ab2c6cb4b81d3dda37a91ef6, type: 3}
+  CharacterSprite: {fileID: 21300000, guid: 3acd8d445bc88f547a8d43d9bd313ccf, type: 3}
+  Name: 
+  Camp: 1
+  currentLevel: 1
+  ifLevelUp: 0
+  AttackNumber: 1
+  AttributeList:
+  - Blood: 16
+    HighAttack: 10
+    LowAttack: 5
+    Defence: 0
+    Dodge: 10
+    Precision: 0
+    CriticalHit: 0
+    Speed: 4
+    BleedResist: 50
+    DizzyResist: 30
+    DebuffResist: 50
+    MoveResist: 30
+    levelNeedCoins: 0
+  - Blood: 22
+    HighAttack: 12
+    LowAttack: 6
+    Defence: 0
+    Dodge: 10
+    Precision: 0
+    CriticalHit: 0
+    Speed: 4
+    BleedResist: 50
+    DizzyResist: 30
+    DebuffResist: 50
+    MoveResist: 30
+    levelNeedCoins: 0
+  - Blood: 28
+    HighAttack: 14
+    LowAttack: 7
+    Defence: 0
+    Dodge: 10
+    Precision: 0
+    CriticalHit: 0
+    Speed: 4
+    BleedResist: 50
+    DizzyResist: 30
+    DebuffResist: 50
+    MoveResist: 30
+    levelNeedCoins: 0
+  skills:
+  - SkillName: "\u7977\u544A "
+    SkillLevel: 1
+    skillNeedCoins: 
+    skillTarget: 1
+    description: "\u56DE\u590D\u796D\u575B10\u70B9\u751F\u547D\u503C"
+    icon: {fileID: 0}
+    usableTime: 0
+    precision: []
+    criticalHitCorrection: 0
+    isOffend: 0
+    isMassAttacks: 0
+    MassAttacksNumbers: 1
+    damageCorrection: 0
+    AvailableStandPosition: 00000000010000000200000003000000
+    AvailableAttackPosition: 
+    effects:
+    - type: 2
+      value: []
+      buffs: {fileID: 0}
+  - SkillName: "\u795E\u7F5A "
+    SkillLevel: 1
+    skillNeedCoins: 
+    skillTarget: 1
+    description: "\u8FDC\u7A0B\r\n"
+    icon: {fileID: 0}
+    usableTime: 0
+    precision: []
+    criticalHitCorrection: 0
+    isOffend: 1
+    isMassAttacks: 0
+    MassAttacksNumbers: 0
+    damageCorrection: 0
+    AvailableStandPosition: 010000000200000003000000
+    AvailableAttackPosition: 00000000010000000200000003000000
+    effects:
+    - type: 0
+      value: []
+      buffs: {fileID: 0}

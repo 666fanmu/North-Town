@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 805a05611db675944bb2fae96e8d7605, type: 3}
+  m_Name: DemonInfo
+  m_EditorClassIdentifier: 
+  CharacterHeadSprite: {fileID: 21300000, guid: 321d8291ab2c6cb4b81d3dda37a91ef6, type: 3}
+  CharacterSprite: {fileID: 21300000, guid: 3acd8d445bc88f547a8d43d9bd313ccf, type: 3}
+  Name: "\u5C60\u592B"
+  Camp: 1
+  currentLevel: 1
+  ifLevelUp: 0
+  AttackNumber: 1
+  AttributeList:
+  - Blood: 45
+    HighAttack: 14
+    LowAttack: 10
+    Defence: 0
+    Dodge: 0
+    Precision: 0
+    CriticalHit: 10
+    Speed: 4
+    BleedResist: 100
+    DizzyResist: 80
+    DebuffResist: 50
+    MoveResist: 100
+    levelNeedCoins: 0
+  skills:
+  - SkillName: "\u5C71\u5D29 "
+    SkillLevel: 1
+    skillNeedCoins: 
+    description: "\u5BF9\u6240\u6709\u89D2\u8272\uFF08\u5305\u62EC\u961F\u53CB\u9020\u6210\u4F24\u5BB3\uFF0C\uFF09\uFF0C\u964D\u4F4E\u76EE\u680710%\u9632\u5FA1\u529B\uFF0C\u6301\u7EED2\u56DE\u5408\r\n"
+    icon: {fileID: 0}
+    usableTime: 0
+    precision:
+    - 80
+    criticalHitCorrection: 0
+    isOffend: 1
+    isMassAttacks: 1
+    MassAttacksNumbers: 7
+    damageCorrection: 0.8
+    AvailableStandPosition: 00000000010000000200000003000000
+    AvailableAttackPosition: 00000000010000000200000003000000
+    effects:
+    - type: 0
+      value: []
+      buffs: {fileID: 0}
+  - SkillName: "\u7834\u9664\u5C01\u5370 "
+    SkillLevel: 0
+    skillNeedCoins: 
+    description: "\u5BF9\u5C01\u5370\u67F1\u9020\u621020\u70B9\u4F24\u5BB3\r\n"
+    icon: {fileID: 0}
+    usableTime: 0
+    precision: []
+    criticalHitCorrection: 0
+    isOffend: 0
+    isMassAttacks: 0
+    MassAttacksNumbers: 1
+    damageCorrection: 0
+    AvailableStandPosition: 00000000010000000200000003000000
+    AvailableAttackPosition: 
+    effects:
+    - type: 0
+      value: []
+      buffs: {fileID: 0}
+  - SkillName: "\u5384\u5492\u53EC\u6765 "
+    SkillLevel: 1
+    skillNeedCoins: 
+    description: "\u5BF9\u5168\u4F53\u989D\u5916\u9020\u6210\u6DF7\u4E71\u503C/\u51C0\u5316\u503C\u4E8C\u8005\u4E2D\u6700\u9AD8\u503C/5\u70B9\u4F24\u5BB3\uFF1B\u9700\u7834\u574F\u6240\u6709\u5C01\u5370\u67F1\u540E\u624D\u53EF\u4F7F\u7528\r\u6B64\u6280\u80FD\n"
+    icon: {fileID: 0}
+    usableTime: 0
+    precision:
+    - 150
+    criticalHitCorrection: 50
+    isOffend: 0
+    isMassAttacks: 1
+    MassAttacksNumbers: 4
+    damageCorrection: 1.3
+    AvailableStandPosition: 00000000010000000200000003000000
+    AvailableAttackPosition: 00000000010000000200000003000000
+    effects:
+    - type: 0
+      value: []
+      buffs: {fileID: 0}
+    - type: 0
+      value: []
+      buffs: {fileID: 0}

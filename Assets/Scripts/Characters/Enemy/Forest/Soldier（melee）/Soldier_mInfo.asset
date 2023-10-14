@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 805a05611db675944bb2fae96e8d7605, type: 3}
+  m_Name: Soldier_mInfo
+  m_EditorClassIdentifier: 
+  CharacterHeadSprite: {fileID: 21300000, guid: afb2ac212290a184db5260fceddcdc03, type: 3}
+  CharacterSprite: {fileID: 21300000, guid: 62905aae225ad3c48ad59719d1c390a4, type: 3}
+  Name: "\u88AB\u9057\u5FD8\u7684\u58EB\u5175"
+  Camp: 1
+  currentLevel: 1
+  ifLevelUp: 0
+  AttackNumber: 1
+  AttributeList:
+  - Blood: 20
+    HighAttack: 10
+    LowAttack: 6
+    Defence: 0
+    Dodge: 10
+    Precision: 0
+    CriticalHit: 5
+    Speed: 3
+    BleedResist: 50
+    DizzyResist: 50
+    DebuffResist: 50
+    MoveResist: 50
+    levelNeedCoins: 0
+  skills:
+  - SkillName: "\u6253\u51FB"
+    SkillLevel: 1
+    skillNeedCoins: 
+    skillTarget: 0
+    description: "\u8FD1\u6218"
+    icon: {fileID: 0}
+    usableTime: 0
+    precision: []
+    criticalHitCorrection: 0
+    isOffend: 1
+    isMassAttacks: 0
+    MassAttacksNumbers: 1
+    damageCorrection: 1
+    AvailableStandPosition: 0000000001000000
+    AvailableAttackPosition: 0000000001000000
+    effects:
+    - type: 0
+      value:
+      - Dsicription: 
+        value: 0
+      buffs: {fileID: 0}
+  - SkillName: "\u6295\u63B7"
+    SkillLevel: 1
+    skillNeedCoins: 
+    skillTarget: 0
+    description: "\u8FDC\u7A0B"
+    icon: {fileID: 0}
+    usableTime: 0
+    precision: []
+    criticalHitCorrection: 0
+    isOffend: 1
+    isMassAttacks: 0
+    MassAttacksNumbers: 1
+    damageCorrection: 0.8
+    AvailableStandPosition: 000000000100000002000000
+    AvailableAttackPosition: 000000000100000002000000
+    effects:
+    - type: 0
+      value:
+      - Dsicription: 
+        value: 0
+      buffs: {fileID: 0}
